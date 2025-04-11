@@ -1,0 +1,33 @@
+cv_matcher/
+├── app.py
+├── .env
+├── requirements.txt
+├── README.md
+│
+├── prompts/
+│   ├── __init__.py
+│   ├── extracted_text_prompt_template.py
+│   └── job_description_prompt_template.py
+│
+├── utils/
+│   ├── __init__.py
+│   └── email_creator.py
+│
+├── agents/
+│   ├── __init__.py
+│   ├── cv_agents.py
+│   └── admin_agents.py
+│
+├── graphs/
+│   ├── __init__.py
+│   ├── cv_graph.py
+│   └── admin_graph.py
+│
+├── vectorstore/
+│   └── chroma_setup.py
+│
+├── database/
+│   ├── db_setup.py
+│   └── recruitment.db  ← (created at runtime)
+│
+└── static/  ← (Optional: for frontend files if needed)
